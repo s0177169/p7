@@ -1,0 +1,40 @@
+.gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .pager {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .prev-arrow,
+  .next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .prev-arrow {
+    left: 10px;
+  }
+  
+  .next-arrow {
+    right: 10px;
+  }
